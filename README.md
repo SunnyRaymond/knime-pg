@@ -14,7 +14,7 @@ Run a full KNIME Analytics Platform with PostgreSQL 16 & PostGIS 3 in a single
 
 ---
 
-## 1 · Clone the repository
+\## 1 · Clone the repository
 
 ```powershell
 git clone https://github.com/SunnyRaymond/knime-pg.git
@@ -23,7 +23,7 @@ cd KNIME-PG
 
 ---
 
-## 2 · Build the image (one‑liner)
+\## 2 · Build the image (one‑liner)
 
 ```powershell
 cd knime-pg; docker build -t knime-pg-gis .
@@ -31,7 +31,7 @@ cd knime-pg; docker build -t knime-pg-gis .
 
 ---
 
-## 3 · Start the container (one‑liner)
+\## 3 · Start the container (one‑liner)
 
 ```powershell
 docker run -d --name knime -p 6080:6080 -p 5900:5900 -p 5432:5432 -v "${env:USERPROFILE}\knime-ws:/workspace" -v knime_pgdata:/var/lib/postgresql/data knime-pg-gis
@@ -49,7 +49,7 @@ docker run -d --name knime -p 6080:6080 -p 5900:5900 -p 5432:5432 -v "${env:USER
 
 ---
 
-## 4 · Open KNIME in your browser
+\## 4 · Open KNIME in your browser
 
 ```text
 http://localhost:6080/vnc.html
@@ -59,7 +59,7 @@ Login when prompted (the default VNC password is **knime**). A lightweight XFCE 
 
 ---
 
-## 5 · Install the Geometry/Spatial nodes inside KNIME
+\## 5 · Install the Geometry/Spatial nodes inside KNIME
 Inside the KNIME window:
 
 1. Click **Help ▸ Install Extensions…** (top‑right hamburger menu).
