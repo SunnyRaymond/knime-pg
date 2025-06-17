@@ -1,4 +1,4 @@
-# KNIME + PostgreSQL (+ PostGIS) Desktop Stack
+# KNIME + PostgreSQL (+ PostGIS) Containerization
 
 Run a full KNIME Analytics Platform with PostgreSQL 16 & PostGIS 3 in a single Docker container, accessible through your browser via **noVNC** (port 6080) or any VNC client (port 5900).
 
